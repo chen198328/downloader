@@ -1,0 +1,712 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<!-- Begin JCR Header -->
+<html>
+<head>
+  <title>JCR-Web 4.5 Journal Information </title>
+   <link href="http://admin-apps.webofknowledge.com/JCR/jcr_stylesheet.css" rel="stylesheet" type="text/css" />
+   <script language="JavaScript" src="http://admin-apps.webofknowledge.com/JCR/common.js"></script>
+  <table class="header" width="100%" border="0" cellspacing="2" cellpadding="0">
+    <tr>
+      <div style="background-image: url(http://admin-apps.webofknowledge.com/JCR/images/wok_logo_bk.gif); background-repeat: repeat; margin-bottom: 5px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 9px; margin-left: -10px;"><img src="http://admin-apps.webofknowledge.com/JCR/images/wok_logo_jcr.gif" alt="ISI Web of Knowledge"  name="ISI Web of Knowledge"  align="bottom" title="ISI Web of Knowledge" /></div>
+    </tr>
+  </table>
+
+  <table class="header" width="100%" border="0" cellspacing="2" cellpadding="0">
+    <tr>
+      <td height="3"><img src="http://admin-apps.webofknowledge.com/JCR/images/jcrhdr.gif" alt="Journal Citation Reports" name="Journal Citation Reports" title="Journal Citation Reports" /></td> </tr>
+  </table>
+</head>
+<!-- End JCR Header -->
+
+<!-- Begin JCR Record Page -->
+<body>
+
+<script language="javascript">
+<!-- //
+function route_drop_down_selection(form)
+{
+  var my_links_drop_down_value = document.main.links_drop_down_menu.value;
+  if ( my_links_drop_down_value != "" ) {
+      // var w = window.location.replace(my_links_drop_down_value)
+      var w = window.open(my_links_drop_down_value,"publishers","toolbar=yes,location=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes");
+  }
+
+}
+function set_new_window_props() {
+    var winprops;
+
+    var win_w = parseInt(screen.width * .85);
+    var win_h = parseInt(screen.height * .70);
+
+    winprops = 'height='+ win_h +',width='+ win_w +',top=70,left=60,toolbar=yes,menubar=yes,'+
+               'resizable=yes,scrollbars=yes,status=no';
+
+        return winprops;
+}
+//Open new browser window
+function openBrWindow(theURL,winName,features) {
+                if(typeof features !='object'){
+                        features=set_new_window_props();
+                }
+
+                newWindow = window.open(theURL,winName,features);
+        newWindow.focus();
+
+        return false;
+}
+//-->
+</script>
+
+<a name="top"/>
+<table class="header" width="100%" border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td class="header"><!-- Toolbar Start --><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HOME"><img name="Welcome and Main Menu" src="http://admin-apps.webofknowledge.com/JCR/images/tbhome.gif" alt="Welcome and Main Menu" title="Welcome and Main Menu" border="0"></a>&nbsp;<a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8', 'HELP');"><img name="Help" src="http://admin-apps.webofknowledge.com/JCR/images/tbhelp.gif" alt="Help" title="Help" border="0" ></a>&nbsp;<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=LIST_SUMMARY_JOURNAL"><img name="Return To Journal Summary List" src="http://admin-apps.webofknowledge.com/JCR/images/tbretsum.gif" alt="Return To Journal Summary List" title="Return To Journal Summary List" border="0"></a>&nbsp;<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+AUST&rank=1"><img name="Previous Journal" src="http://admin-apps.webofknowledge.com/JCR/images/tbprevj.gif" alt="Previous Journal" title="Previous Journal" border="0"></a>&nbsp;<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACTA+ACUST+UNITED+AC&rank=3"><img name="Next Journal" src="http://admin-apps.webofknowledge.com/JCR/images/tbnextj.gif" alt="Next Journal" title="Next Journal" border="0"></a>&nbsp;<!-- Toolbar End--></td>
+    <td class="header" nowrap="nowrap" align="right">2013 JCR Science Edition</td>
+  </tr>
+</table>
+
+<table class="PageHeader" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr >
+    <td height="17">
+      <h3> <img src="http://admin-apps.webofknowledge.com/JCR/images/jrnl_icon.gif" width="17" height="20">&nbsp;Journal:
+        <span class="pageHeaderName">ACOUSTICAL PHYSICS</span></h3>
+    </td>
+    <td height="17">
+      <div class="view_hist_link"></div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+<center>
+  <table width="100%" border="1" cellspacing="0" cellpadding="2" bordercolor="#CCCCCC">
+    <tr>
+      <th class="dataTableHeader" valign="bottom">Mark</th>
+      <th class="dataTableHeader" width="500" valign="bottom">&nbsp;&nbsp;&nbsp;Journal
+        Title&nbsp;&nbsp;&nbsp;</th>
+      <th class="dataTableHeader" valign="bottom">ISSN</th>
+      <th class="dataTableHeader" valign="bottom" nowrap>Total Cites</th>
+	  <th class="dataTableHeader" valign="bottom">Impact<br />
+        Factor</th>
+	  
+			<th class="dataTableHeader" valign="bottom">5-Year<br/>Impact<br />
+			 Factor</th>
+      <th class="dataTableHeader" valign="bottom">Immediacy Index</th>
+      <th class="dataTableHeader" valign="bottom">Citable<br/>Items</th>
+      <th class="dataTableHeader" valign="bottom">Cited<br />
+        Half-life</th>
+      <th class="dataTableHeader" valign="bottom">Citing<br />
+        Half-life</th>
+    </tr>
+    <tr>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD_MARK&rank=2&journal=ACOUST+PHYS%2B&mark=on">
+        <!-- Mark Button Start -->
+        <img src="http://admin-apps.webofknowledge.com/JCR/images/checkoff.gif" alt="Mark Journal" title="Mark Journal" name="Mark Journal" border="0"  />
+        <!-- Mark Button Stop -->
+        </a></p></td>
+      <td width="30%" nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#journal_title">ACOUST PHYS+</a></p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center">1063-7710</p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center">613</p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#impact">0.551</a></p></td>
+	  
+				<td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#impact_5year">0.494</a></p></td>
+	  <td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#immediacy">0.098</a></p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center">92</p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#cited_hlife">6.6</a></p></td>
+      <td nowrap align="center" bgcolor="FFFFE1"><p align="center"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&journal=ACOUST+PHYS%2B&rank=2#citing_hlife">&gt;10.0</a></p></td>
+    </tr>
+    <tr align="center">
+	
+		  <td nowrap colspan="9">
+		<a href="#cited_journal">Cited Journal
+        <img src="http://admin-apps.webofknowledge.com/JCR/images/graph_icon2.gif" width="19" height="17" border="0" align="absbottom"></a>&nbsp;&nbsp; 
+		<a href="#citing_journal">Citing Journal <img src="http://admin-apps.webofknowledge.com/JCR/images/graph_icon2.gif" width="19" height="17" border="0" align="absbottom"></a> &nbsp;&nbsp; 
+		<a href="#source">Source Data</a>&nbsp;&nbsp; <a href="#selfCites">Journal Self Cites</a></td>
+    </tr>
+  </table>
+
+  <table border="0" cellspacing="6" cellpadding="6">
+    <tr valign="top">
+      <td><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=CITE_CITED&rank=2&journal=ACOUST+PHYS%2B&req_from=FULL_REC"><img alt="Journals Citing this Journal" title="Journals Citing this Journal" name="Journals Citing this Journal" src="http://admin-apps.webofknowledge.com/JCR/images/citedjn_data.gif" border="0" width="123" height="22"></a></td>
+      <td><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=CITE_CITING&rank=2&journal=ACOUST+PHYS%2B&req_from=FULL_REC"><img alt="Journals that this Journal Cites" title="Journals that this Journal Cites" name="Journals that this Journal Cites" src="http://admin-apps.webofknowledge.com/JCR/images/citingjn_data.gif" border="0" width="123" height="22"></a></td>
+<td><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=IMPACT&rank=2&journal=ACOUST+PHYS%2B"><img alt="Impact Factor Trend Graph" title="Impact Factor Trend Graph" name="Impact Factor Trend Graph" src="http://admin-apps.webofknowledge.com/JCR/images/impact_trend.gif" border="0" /></a></td> 
+
+<td><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RELATED_JOURNALS&rank=2&journal=ACOUST+PHYS%2B&query_new=true"><img alt="Related Journals" title="Related Journals" name="Related Journals" src="http://admin-apps.webofknowledge.com/JCR/images//related_jrnls.gif" border="0" width="109" height="22"/></a></td>
+    </tr>
+  </table>
+</center>
+
+<a name="journal_title"/></a> <br>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Information</span> <a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.f&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');" target="_new"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0" width="100%">
+  <tr>
+    <td nowrap valign="top" align="right"><b>Full Journal Title:</b></td>
+    <td valign="top">ACOUSTICAL PHYSICS&nbsp;
+	 <!--Temp added for EF and AI 
+	<td valign="top" rowspan="11">
+		<div class="EigenSideBar">
+			<div class="EigenSideBarHeading">JCR Eigen Factor</div>
+			<div class="sideBarHeading">Eigen Factor </div>
+			<div class="EigenSideBarItems"></div>
+			<div class="sideBarHeading">Article Influence </div>
+			<div class="EigenSideBarItems"></div>
+		</div>-->
+
+</td>
+ <td valign="top" rowspan="11">
+ <!--Temp added for EF and AI -->	
+ 
+		<div class="EigenSideBar">
+			<div class="EigenSideBarHeading"><nobr><i>Eigenfactor</i><sup>&reg;</sup></nobr> Metrics</div>
+			<div class="sideBarHeading"><nobr><i>Eigenfactor</i><sup>&reg;</sup></nobr> Score </div>
+			<div class="EigenSideBarItems">0.00147</div>
+			<div class="sideBarHeading"><i>Article</i> <nobr><i>Influence</i><sup>&reg;</sup></nobr> Score </div>
+			<div class="EigenSideBarItems">0.161</div>
+		</div>        
+
+
+
+	
+
+
+  <tr>
+    <td nowrap valign="top" align="right"><b>ISO Abbrev. Title:</b></td>
+    <td valign="top"> Acoust. Phys. </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>JCR Abbrev. Title:</b></td>
+    <td valign="top"> ACOUST PHYS+ </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>ISSN:</b></td>
+    <td valign="top"> 1063-7710 </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Issues/Year:</b></td>
+    <td valign="top">6 &nbsp;</td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Language:</b></td>
+    <td valign="top"> ENGLISH                        </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Journal Country/Territory:</b></td>
+    <td valign="top"> RUSSIA </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Publisher:</b></td>
+    <td valign="top"> MAIK NAUKA/INTERPERIODICA/SPRINGER </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Publisher Address:</b></td>
+    <td valign="top"> 233 SPRING ST, NEW YORK, NY 10013-1578 </td>
+  </tr>
+  <tr>
+    <td nowrap valign="top" align="right"><b>Subject Categories:</b></td>
+  <!--  <td colspan="02">-->
+  <td valign="top">
+      <p>ACOUSTICS&nbsp;&nbsp;<a href="#" onClick="openBrWindow('http://admin-apps.webofknowledge.com/JCR/static_html/scope_notes/SCIENCE/2013/SCOPE_SCI.htm#AA ','scope_notes_win','menubar=yes,scrollbars=yes,resizable=yes,width=750,height=550')"><img src="http://admin-apps.webofknowledge.com/JCR/images/scopenote.gif" alt="Scope Note" title="Scope Note" name="Scope Note" border="0" align="middle" /></a>&nbsp;<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=LIST_SUMMARY_JOURNAL&query_new=true&query_type=category&query_data=AA "><img src="http://admin-apps.webofknowledge.com/JCR/images/view_journal_summ.gif" alt="View Journal List Summary" name="View Journal List Summary" title="View Journal List Summary" border="0" align="middle" /></a>&nbsp;<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=RECORD&category=ACOUSTICS"><img src="http://admin-apps.webofknowledge.com/JCR/images/view_category_data.gif" alt="View Category Data" name="View Category Data" title="View Category Data" border="0" align="middle" /></a><br /><br />
+      </p>
+    </td>
+  </tr>
+  <!-- Added Button for Impact Factor Boxplot Begin-->
+ 
+  <tr>
+    <td nowrap valign="top" align="right"><b>Journal Rank in Categories:</b></td> 
+		<td valign="top">
+			<a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=IF_CAT_BOXPLOT&rank=2&journal=ACOUST+PHYS%2B">
+				<img alt="Journal Ranking And Impact Factor Boxplot" title="Journal Ranking And Impact Factor Boxplot" name="Journal Ranking And Impact Factor Boxplot"
+				 src="http://admin-apps.webofknowledge.com/JCR/images/journal_rank.gif" border="0" />
+			</a>
+		</td>        
+  </tr>  
+   <!-- Added Button for Impact Factor Boxplot End-->
+</table>
+<br />
+<p><a name="impact" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Impact Factor</span> <a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.14.a&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<br>
+
+<table border="0" cellspacing="2" cellpadding="0">
+<tr>
+    <td nowrap>Cites in 2013 to items published in:</td>
+    <td>2012 =</td>
+    <td>47&nbsp;</td>
+    <td>&nbsp;</td>
+    <td nowrap>Number of items published in:</td>
+    <td>2012 =</td>
+    <td>91&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>2011 =</td>
+    <td>61&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>2011 =</td>
+    <td>105&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>Sum:</td>
+    <td>108&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Sum:</td>
+    <td>196&nbsp;</td>
+</tr>
+</table>
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td nowrap width="10%" class="sorted">Calculation:</td>
+    <td nowrap class="sorted"><u>Cites to recent items</u>&nbsp;</td>
+    <td class="sorted"><u>108</u></td>
+    <td class="sorted">=</td>
+    <td align="left" class="sorted"><b>0.551</b>&nbsp;</td>
+  </tr>
+  <tr>
+    <td nowrap class="sorted">&nbsp;</td>
+    <td nowrap class="sorted">Number of recent items&nbsp;</td>
+    <td align="left" class="sorted">196&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+  </tr>
+</table>
+<!--Added for 5 Year Impact Factor -->
+
+<br />
+<p><a name="impact_5year" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">5-Year Journal Impact Factor</span> <a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.19&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<br>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr>
+    <td nowrap>Cites in {2013} to items published in:</td>
+    <td>2012 =</td>
+    <td>47&nbsp;</td>
+    <td>&nbsp;</td>
+    <td nowrap>Number of items published in:</td>
+    <td>2012 =</td>
+    <td>91&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>2011 =</td>
+    <td>61&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>2011 =</td>
+    <td>105&nbsp;</td>
+</tr>
+
+<!-- 3 to 5 years -->
+<tr>
+	<td>&nbsp;</td>
+    <td>2010 =</td>
+    <td>66&nbsp;</td>
+    <td>&nbsp;</td>
+	<td>&nbsp;</td>
+    <td>2010 =</td>
+    <td>135&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>2009 =</td>
+    <td>56&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>2009 =</td>
+    <td>108&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>2008 =</td>
+    <td>42&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>2008 =</td>
+    <td>112&nbsp;</td>
+</tr>
+<tr>
+    <td>&nbsp;</td>
+    <td>Sum:</td>
+    <td>272&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Sum:</td>
+    <td>551&nbsp;</td>
+</tr>
+</table>
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td nowrap width="10%" class="sorted">Calculation:</td>
+    <td nowrap class="sorted"><u>Cites to recent items</u>&nbsp;</td>
+    <td class="sorted"><u>272</u></td>
+    <td class="sorted">=</td>
+    <td align="left" class="sorted"><b>0.494</b>&nbsp;</td>
+  </tr>
+  <tr>
+    <td nowrap class="sorted">&nbsp;</td>
+    <td nowrap class="sorted">Number of recent items&nbsp;</td>
+    <td align="left" class="sorted">551&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+  </tr>
+</table>
+
+<!-- Added For Journal Self Cites Begin. -->
+<p><a name="selfCites" id="selfCites" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Self Cites </span> <a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.b&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td valign="top" colspan="2" class="help"> The tables show the contribution of the journal's self cites to its impact factor. This information is also represented in the <nobr><a href="#cited_journal">cited journal graph.</a></nobr></td>
+  </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="4">
+  <tr>
+    <td class="regV100"><table border="1" cellspacing="0" cellpadding="2" bordercolor="#CCCCCC">
+      <tr>
+        <td class="sorted"><strong>Total Cites </strong></td>
+        <td>613</td>
+        </tr>
+      <tr>
+        <td class="sorted"><strong> Cites to Years Used in<br>
+          Impact Factor Calculation </strong></td>
+        <td>108</td>
+        </tr>
+      <tr>
+        <td class="sorted"><strong>Impact Factor </strong></td>
+        <td>0.551</td>
+        </tr>
+    </table></td>
+    <td class="regV100">&nbsp;</td>
+    <td class="regV100"><table border="1" cellspacing="0" cellpadding="2" bordercolor="#CCCCCC">
+	
+      <tr>
+        <td class="sorted"><strong>Self Cites </strong></td>
+        <td>253 (41% of 613)</td>
+      </tr>		
+      <tr>
+        <td class="sorted"><strong>Self Cites to Years Used <br>
+          in Impact Factor Calculation </strong></td>
+        <td>61 (56% of 108) </td>
+      </tr>	  
+      <tr>
+        <td class="sorted"><strong>Impact Factor without Self Cites</strong> </td>
+        <td>0.240</td>
+      </tr>
+	  
+    </table></td>
+  </tr>
+</table>
+<!-- Added For Journal Self Cites End. -->
+<p><a name="immediacy" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Immediacy Index</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.14.b&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<br>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr>
+    <td align="middle">Cites in 2013 to items published in 2013</td>
+    <td>=</td>
+    <td>9&nbsp;</td>
+</tr>
+<tr>
+    <td>Number of items published in 2013</td>
+    <td>=</td>
+    <td>92&nbsp;</td>
+</tr>
+</table>
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td nowrap align="left" class="sorted">Calculation:</td>
+    <td nowrap class="sorted"><u>Cites to current items</u>&nbsp;</td>
+    <td class="sorted"><u>9</u></td>
+    <td class="sorted">=</td>
+    <td align="left" class="sorted"><b>0.098</b>&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="sorted">&nbsp;</td>
+    <td nowrap class="sorted">Number of current items&nbsp;</td>
+    <td class="sorted">92&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+    <td class="sorted">&nbsp;</td>
+  </tr>
+</table>
+<p><a name="cited_hlife" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Cited Half-Life</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.c&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0">
+    <tr>
+
+    <td valign="top" colspan="2" class="help"> The cited half-life for the journal is 
+    the median age of its items cited in the current JCR year. Half of the citations 
+    to the journal are to items published within the cited half-life. 
+      
+      <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+
+          <td class="sorted"><b>Cited Half-Life: 
+6.6 years
+	</b>
+        </tr>
+        </table>
+      </td>
+
+    </tr>
+  </table>
+  <br>
+<span class="help"> Breakdown of the citations <em><b>to the journal</b></em>
+by the cumulative percent of 2013 cites to items published in the following
+years: </span>
+<table border="1" cellspacing="0" cellpadding="2" bordercolor="#CCCCCC">
+  <tr>
+    <td class="sorted" valign="top" nowrap><b>Cited Year</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2013</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2012</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2011</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2010</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2009</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2008</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2007</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2006</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2005</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2004</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2003-all</b></td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap class="sorted"><b># Cites from 2013</b></td>
+    <td valign="top" nowrap align="right">&nbsp;9</td>
+    <td valign="top" nowrap align="right">&nbsp;47</td>
+    <td valign="top" nowrap align="right">&nbsp;61</td>
+    <td valign="top" nowrap align="right">&nbsp;66</td>
+    <td valign="top" nowrap align="right">&nbsp;56</td>
+    <td valign="top" nowrap align="right">&nbsp;42</td>
+    <td valign="top" nowrap align="right">&nbsp;42</td>
+    <td valign="top" nowrap align="right">&nbsp;39</td>
+    <td valign="top" nowrap align="right">&nbsp;31</td>
+    <td valign="top" nowrap align="right">&nbsp;23</td>
+    <td valign="top" nowrap align="right">&nbsp;197</td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap class="sorted"><b>Cumulative %</b></td>
+    <td valign="top" nowrap align="right">&nbsp;1.47</td>
+    <td valign="top" nowrap align="right">&nbsp;9.14</td>
+    <td valign="top" nowrap align="right">&nbsp;19.09</td>
+    <td valign="top" nowrap align="right">&nbsp;29.85</td>
+    <td valign="top" nowrap align="right">&nbsp;38.99</td>
+    <td valign="top" nowrap align="right">&nbsp;45.84</td>
+    <td valign="top" nowrap align="right">&nbsp;52.69</td>
+    <td valign="top" nowrap align="right">&nbsp;59.05</td>
+    <td valign="top" nowrap align="right">&nbsp;64.11</td>
+    <td valign="top" nowrap align="right">&nbsp;67.86</td>
+    <td valign="top" nowrap align="right">
+&nbsp;100</td>
+  </tr>
+</table>
+<p><b><span class="help">Cited Half-Life Calculations:<br />
+  </span></b><span class="help">The cited half-life calculation finds the number of 
+  publication years from the current JCR year that account for 50% of citations 
+  received by the journal. Read help for more information on the calculation.</span></p>
+
+<p><a name="cited_journal" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Cited Journal Graph</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.g&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage')";><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td valign="top" colspan="2" class="help"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=CITE_CITED&rank=2&journal=ACOUST+PHYS%2B">Click here for Cited Journal data table</a><br />
+      <br />
+      This graph shows the distribution by cited year of citations to items
+      published in the journal ACOUST PHYS+.</td>
+  </tr>
+  <tr valign="top">
+    <td><b> Citations to the journal (per cited year)</b><br />
+      <img border="1" src="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=GRAPH_CITED&journal=ACOUST+PHYS%2B&rank=2"
+        width="495"
+        height="314"
+        alt="Cited Journal Graph"
+        title="Cited Journal Graph"
+        name="Cited Journal Graph" /><br>
+    </td>
+    <td class="help">
+      <p><br />
+        - The white/grey division indicates the cited half-life (if &lt; 10.0).
+        Half of the journal's cited items were published more recently than
+        the cited half-life. </p>
+      <p>- The top (gold) portion of each column indicates Journal Self Citations:
+        citations to items in the journal from items in the same journal.</p>
+      <p>- The bottom (blue) portion of each column indicates Non-Self Citations:
+        citations to the journal from items in other journals.</p>
+      <p>- The two lighter columns indicate citations used to calculate the Impact
+        Factor (always the 2nd and 3rd columns).</p>
+    </td>
+  </tr>
+</table>
+
+<p><a name="citing_hlife" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Citing Half-Life</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.d&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0">
+    <tr>
+
+    <td valign="top" colspan="2" class="help">The citing half-life for the journal is 
+    the median age of the items the journal cited in the current JCR year. Half of 
+    the citations in the journal are to items published within the citing half-life. 
+      
+      <table border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFCC">
+          <tr>
+
+          <td class="sorted"><b>Citing Half-Life:
+&gt;10.0 years
+	</b>
+	  </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+  </table>
+  <br>
+<span class="help">Breakdown of the citations <em><b>from the journal</b></em>
+by the cumulative percent of 2013 cites to items published in the following
+years: </span>
+<table border="1" cellspacing="0" cellpadding="2" bordercolor="#CCCCCC">
+  <tr>
+    <td class="sorted" valign="top" nowrap><b>Cited Year</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2013</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2012</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2011</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2010</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2009</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2008</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2007</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2006</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2005</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2004</b></td>
+    <td class="sorted" valign="top" nowrap align="center"><b>2003-all</b></td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap class="sorted"><b># Cites from 2013</b></td>
+    <td valign="top" nowrap align="right">&nbsp;10</td>
+    <td valign="top" nowrap align="right">&nbsp;66</td>
+    <td valign="top" nowrap align="right">&nbsp;96</td>
+    <td valign="top" nowrap align="right">&nbsp;93</td>
+    <td valign="top" nowrap align="right">&nbsp;81</td>
+    <td valign="top" nowrap align="right">&nbsp;78</td>
+    <td valign="top" nowrap align="right">&nbsp;63</td>
+    <td valign="top" nowrap align="right">&nbsp;60</td>
+    <td valign="top" nowrap align="right">&nbsp;52</td>
+    <td valign="top" nowrap align="right">&nbsp;47</td>
+    <td valign="top" nowrap align="right">&nbsp;930</td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap class="sorted"><b>Cumulative %</b></td>
+    <td valign="top" nowrap align="right">&nbsp;0.63</td>
+    <td valign="top" nowrap align="right">&nbsp;4.82</td>
+    <td valign="top" nowrap align="right">&nbsp;10.91</td>
+    <td valign="top" nowrap align="right">&nbsp;16.81</td>
+    <td valign="top" nowrap align="right">&nbsp;21.95</td>
+    <td valign="top" nowrap align="right">&nbsp;26.90</td>
+    <td valign="top" nowrap align="right">&nbsp;30.90</td>
+    <td valign="top" nowrap align="right">&nbsp;34.71</td>
+    <td valign="top" nowrap align="right">&nbsp;38.01</td>
+    <td valign="top" nowrap align="right">&nbsp;40.99</td>
+    <td valign="top" nowrap align="right">
+&nbsp;100</td>
+
+  </tr>
+</table>
+<p><b><span class="help">Citing Half-Life Calculations:<br />
+  </span></b><span class="help">The citing half-life calculation finds the number 
+  of publication years from the current JCR year that account for 50% of citations in 
+  the journal. Read help for more information on the calculation.
+  </span> </p>
+
+<p><a name="citing_journal" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Citing Journal Graph</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.h&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+<table border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td valign="top" colspan="2" class="help"><a href="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=CITE_CITING&rank=2&journal=ACOUST+PHYS%2B">Click here for Citing Journal data table</a><br />
+      <br />
+      This graph shows the distribution by cited year of citations from current-year
+      items in the journal ACOUST PHYS+.</td>
+  </tr>
+  <tr valign="top">
+    <td><b> Citations from the journal (per cited year)</b><br />
+        <img border="1"
+             src="http://admin-apps.webofknowledge.com/JCR/JCR?RQ=GRAPH_CITING&journal=ACOUST+PHYS%2B&rank=2"
+             width="495"
+             height="314"
+             align="absmiddle"
+             alt="Citing Journal Graph"
+             title="Citing Journal Graph"
+             name="Citing Journal Graph" />
+    </td>
+    <td class="help">
+      <p><br />
+        - The white/grey division indicates the citing half-life (if &lt; 10.0).
+        Half of the citations from the journal's current items are to items
+        published more recently than the citing half-life. </p>
+      <p>- The top (gold) portion of each column indicates Journal Self-Citations:
+        citations from items in the journal to items in the same journal.</p>
+      <p>- The bottom (blue) portion of each column indicates Non-Self Citations:
+        citations from the journal to items in other journals.</p>
+    </td>
+  </tr>
+</table>
+
+<p><a name="source" /></a>
+<div class="fullRecSubHead"><a href="#top"><img src="http://admin-apps.webofknowledge.com/JCR/images/toppage.gif" width="16" height="13" align="right" border="0" alt="Back to Top" name="Back to Top" title="Back to Top"></a><span class="fullRecSubHeadText">Journal Source Data</span><a href="" onClick="return show_help('http://admin-apps.webofknowledge.com/JCR/JCR?RQ=HELP&help_context=2.8.e&origin=http%3A//admin-apps.webofknowledge.com/JCR/JCR%3FPointOfEntry%3DLastPage');"><img src="http://admin-apps.webofknowledge.com/JCR/images/info.gif" alt="Information" name="Information" title="Information" width="14" height="14" border="0"></a></div>
+
+<p>
+<table border="1" cellspacing="0" cellpadding="4" bordercolor="#CCCCCC">
+  <tr>
+    <td rowspan="2">&nbsp;</td>
+    <td colspan="3" class="sorted"><center><p><b>Citable items</b></p></center></td>
+    <td rowspan="2" valign="bottom"><b>Other items</b></td>
+  </tr>
+  <tr>
+    <td class="sorted" align="right"><b>Articles</b></td>
+    <td class="sorted" align="right"><b>Reviews</b></td>
+    <td class="sorted" align="right"><b>Combined</b></td>
+  </tr>
+  <tr>
+    <td><b>Number in JCR year 2013</b> (A)</td>
+    <td class="sorted" align="right">92&nbsp;</td>
+    <td class="sorted" align="right">0&nbsp;</td>
+    <td class="sorted" align="right">92&nbsp;</td>
+    <td align="right">   0&nbsp;</td>
+  </tr>
+  <tr>
+    <td><b>Number of references</b> (B)</td>
+    <td align="right">1576&nbsp;</td>
+    <td align="right">0&nbsp;</td>
+    <td align="right">1576&nbsp;</td>
+    <td align="right">0.00&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td><b>Ratio </b>(B/A)</td>
+    <td align="right">17.1&nbsp;</td>
+    <td align="right">0.0&nbsp;</td>
+    <td align="right">17.1&nbsp;</td>
+    <td align="right">0.0&nbsp;</td>
+  </tr>
+</table>
+
+<br />
+<!-- End JCR Record Page -->
+<!-- Begin JCR Footer -->
+  <p>
+  <div class="footer" align="center">
+    <a href="http://admin-apps.webofknowledge.com/JCR/help/aupolicy.htm">Acceptable Use Policy</a><br/> 
+    Copyright &copy; 2015 <a href="http://www.thomson.com/scientific/scientific.jsp">Thomson Reuters</a>. 
+  </div>
+  <p> 
+  <table id="footerTable" width="100%" border="0"cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td background="http://admin-apps.webofknowledge.com/JCR/images/thomson_bk.gif"><img src="http://admin-apps.webofknowledge.com/JCR/images/thomson.gif" width="306"  border="0" alt="Thomson Reuters Logo" title="Thomson Reuters"></td>
+    </tr>
+  </table>
+</body>
+</html>
+
+<!-- End JCR Footer -->
+
